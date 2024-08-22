@@ -1,0 +1,252 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f5f7fa;
+    --text-color: #333;
+    --card-background: #ffffff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --success-color: #2ecc71;
+    --error-color: #e74c3c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+header p {
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.card {
+    background-color: var(--card-background);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+#start-section, #interview-section, #result-section {
+    text-align: center;
+}
+
+#interview-question {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+#video-container {
+    width: 100%;
+    max-width: 640px;
+    margin: 1rem auto;
+    position: relative;
+}
+
+#videoElement {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+}
+
+.timer {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 1rem 0;
+    color: var(--primary-color);
+    background-color: #e3f2fd;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.btn:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+#status-message {
+    font-weight: 500;
+    margin-top: 1rem;
+    color: var(--secondary-color);
+}
+
+.result-container {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.score-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.score {
+    background-color: #e9f0f8;
+    border-radius: 4px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.score-label {
+    font-weight: 600;
+    color: var(--text-color);
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.score-value {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+h3, h4 {
+    color: var(--secondary-color);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+li::before {
+    content: "•";
+    color: var(--primary-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.error {
+    color: var(--error-color);
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    .timer {
+        font-size: 1rem;
+    }
+
+    .score-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .score-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    #progress-bar-container {
+        width: 100%;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        margin: 10px 0;
+        overflow: hidden;
+    }
+    
+    #analysis-progress {
+        width: 0;
+        height: 20px;
+        background-color: var(--primary-color);
+        transition: width 0.5s ease;
+    }
+    
+    
+    .error {
+        color: #e74c3c;
+        font-weight: bold;
+    }
+
+    
+}
