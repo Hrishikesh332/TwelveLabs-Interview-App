@@ -2,3 +2,4 @@ flask
 twelvelabs
 requests
 dotenv
+gunicorn
