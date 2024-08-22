@@ -1,5 +1,4 @@
-flask
-twelvelabs
-requests
-dotenv
+Flask==3.0.3
+twelvelabs==0.2.6
+requests==2.31.0
 gunicorn
