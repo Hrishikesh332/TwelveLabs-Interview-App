@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Interview Analyzer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Interview Analyzer</h1>
+            <p>Enhance Your Interview Skills with AI Powered Feedback</p>
+        </header>
+        <main>
+            <section id="start-section" class="card">
+                <h2>Ready to Start Your Interview?</h2>
+                <p>Click the button below to begin your AI powered interview experience.</p>
+                <button id="startInterviewButton" class="btn btn-primary">Start Interview</button>
+            </section>
+            
+            <section id="interview-section" class="card hidden">
+                <div id="question-container">
+                    <h2>Interview Question -</h2>
+                    <p id="interview-question"></p>
+                </div>
+                <div id="timer-container">
+                    <div id="preparation-timer" class="timer">
+                        Preparation Time - <span id="prep-time">00:20</span>
+                    </div>
+                    <div id="recording-timer" class="timer hidden">
+                        Recording Time - <span id="rec-time">00:30</span>
+                    </div>
+                </div>
+                <div id="video-container" class="hidden">
+                    <video id="videoElement" autoplay muted></video>
+                </div>
+                <div id="status-message" class="status"></div>
+            </section>
+            
+            <section id="result-section" class="card hidden">
+            
+                <h2>Analysis Results</h2>
+                <div id="result" class="result-container">
+                    <div id="loading-message" class="loading">Analyzing your response...</div>
+                    <small>It may take around 3-4 mins</small>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

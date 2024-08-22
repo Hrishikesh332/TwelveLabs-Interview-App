@@ -1,0 +1,4 @@
+flask
+twelvelabs
+requests
+dotenv
