@@ -1,7 +1,7 @@
 <br />
 <div align="center">
-  <a href="https://github.com/your_username/AI-Interview-Analyzer">
-    <img src="public/logo-interview.jpg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Hrishikesh332/AI-Interview-Analyzer">
+    <img src="https://github.com/Hrishikesh332/TwelveLabs-Interview-App/blob/main/src/logo-interview.jpg" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">AI Interview Analyzer</h3>
   <p align="center">
@@ -43,10 +43,14 @@ Whether you're a job seeker looking to improve your interview skills or a hiring
 
 ## Demonstration Video
 
-
-<div style="position: relative; padding-bottom: 62.5%; height: 0;">
-    <iframe src="https://www.loom.com/embed/20726cba8255469c8bb1111398839e42?sid=80282f37-2e03-4f67-99be-fa8b5d6daa56" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-</div>
+<div>
+    <a href="https://www.loom.com/share/20726cba8255469c8bb1111398839e42">
+      <p>Interview Analyzer Demo 🎥 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/20726cba8255469c8bb1111398839e42">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/20726cba8255469c8bb1111398839e42-390642216949f556-full-play.gif">
+    </a>
+  </div>
 
 ## Features
 
