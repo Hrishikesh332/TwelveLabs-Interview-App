@@ -44,7 +44,13 @@ Whether you're a job seeker looking to improve your interview skills or a hiring
 ## Demonstration Video
 
 Try out the application now -
-[![AI Interview App](https://img.shields.io/badge/AI_Interview_App-Click_Here-blue)](https://twelvelabs-interview-app.onrender.com/)
+
+<a href="https://twelvelabs-interview-app.onrender.com/" target="_blank" style="text-decoration:none;">
+  <div style="display:inline-block; padding:10px 20px; background-color:#4CAF50; color:white; border-radius:5px; font-size:16px; font-weight:bold;">
+    📝 AI Interview App
+  </div>
+</a>
+
 
 
 <div>
