@@ -27,7 +27,7 @@
     <li><a href="#Features">Features</a></li>
     <li><a href="#Tech-Stack">Tech Stack</a></li>
     <li><a href="#Instructions-on-running-project-locally">Instructions on running project locally</a></li>
-        <li><a href="#Usecase">Feedback</a></li>
+        <li><a href="#Usecases">Usecase</a></li>
     <li><a href="#Feedback">Feedback</a></li>
   </ol>
 </details>
@@ -42,6 +42,10 @@ Whether you're a job seeker looking to improve your interview skills or a hiring
 
 
 ## Demonstration Video
+
+Try out the application now -
+[![AI Interview App](https://img.shields.io/badge/AI_Interview_App-Click_Here-blue)](https://twelvelabs-interview-app.onrender.com/)
+
 
 <div>
     <a href="https://www.loom.com/share/20726cba8255469c8bb1111398839e42">
