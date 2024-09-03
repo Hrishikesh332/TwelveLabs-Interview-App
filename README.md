@@ -52,7 +52,7 @@ Try out the application now -
     <a href="https://www.loom.com/share/20726cba8255469c8bb1111398839e42">
       <p>Interview Analyzer Demo 🎥 - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/20726cba8255469c8bb1111398839e42">
+    <a href="https://youtu.be/J2vGUEEjHWI">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/20726cba8255469c8bb1111398839e42-390642216949f556-full-play.gif">
     </a>
   </div>
