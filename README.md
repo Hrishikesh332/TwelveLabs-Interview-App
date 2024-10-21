@@ -98,6 +98,17 @@ Install dependencies:
  pip install -r requirements.txt
 ```
 
+Do prepare the .env file and put the following content in the .env file
+
+```
+API_KEY = "<Your API Key>"
+
+# Carefully add the Index ID which is created from the Twelvelabs playground
+
+API_URL = "https://api.twelvelabs.io/v1.2/indexes/<Your Index ID>"
+index_id = "<Your Index ID>"
+
+```
 
 Start the server
 
